@@ -10,10 +10,7 @@ https://github.com/jakub-rompca/houser-frontend-core
 
 Backend microservices:
 
-https://github.com/jakub-rompca/houser-backend-mailing
-
-https://github.com/jakub-rompca/houser-backend-invoice
-
+https://github.com/jakub-rompca/houser-backend-notifications
 
 Frontend core:
 
@@ -27,3 +24,8 @@ https://github.com/jakub-rompca/houser-frontend-admin
 Mobile:
 
 https://github.com/jakub-rompca/houser-frontend-mobile
+
+
+Project management:
+
+https://github.com/users/jakub-rompca/projects/2

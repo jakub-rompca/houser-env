@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  backend-service-mysql:
+    image: mysql:8
+    platform: linux/amd64
+    ports:
+      # TODO mapping for external and internal db port
+      - "3306:3306"
+    environment:
+      MYSQL_USER: ${DATABASE_USERNAME}
+      MYSQL_PASSWORD: ${DATABASE_PASSWORD}
+      MYSQL_DATABASE: ${DATABASE_NAME}
+      MYSQL_ROOT_PASSWORD: ${DATABASE_ROOT_PASSWORD}
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  backend-service-redis:
+    image: redis/redis-stack-server:latest
+    environment:
+      - REDIS_ARGS=--save 1200 32
+    ports:
+      - "6379:6379"
+#    volumes:
+#      - /houser-redis-data:/data
