@@ -23,6 +23,3 @@ services:
       - "8001:8001"
     volumes:
       - ./redis-local-data/:/data
-#    command: redis-server --daemonize yes
-#    volumes:
-#      - /houser-redis-data:/data

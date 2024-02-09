@@ -1,31 +1,46 @@
-# houser-env
-A environment project linking together all of the houser app available repositories
+## What is this project?
 
-Relating repositories
+`Houser` is a full-stack sample project to provide a glimpse of the technologies I used, 
+techniques I know and style I have.
 
-Backend core:
+## What is the goal?
 
-https://github.com/jakub-rompca/houser-frontend-core
+Goal of this project is to showcase my skills and make everyone's life a bit easier. 
 
+I do also plan to use it at later stage to test any new technologies or languages with a
+proven and tested environment.
 
-Backend microservices:
+## What's the business domain?
 
-https://github.com/jakub-rompca/houser-backend-notifications
+I didn't want to create another shop with baskets, but I also didn't want to complicate
+so that this introduction would take 15 .md pages and take 20 minutes to explain
 
-Frontend core:
+General idea is simple, a basic platform for renting out properties for close friends or families, so trust and money is of no concern by default ;)
 
-https://github.com/jakub-rompca/houser-frontend-core
+## How does it work?
 
+System consists of a few projects working together to form a coherent solution 
 
-Frontend supplementary apps:
+|                                                                                     Name | Language                          | Technologies                           | Done |
+|-----------------------------------------------------------------------------------------:|-----------------------------------|----------------------------------------|------|
+|                 [Backend core app](https://github.com/jakub-rompca/houser-frontend-core) | Typescript                        | NestJS<br/>MySQL<br/>GraphQL<br/>Redis | 40%  |
+| [Backend notification app](https://github.com/jakub-rompca/houser-backend-notifications) | Typescript<br/>C# (in the future) | NestJS<br/>Redis                       | 60%  |
+|                [Frontend core app](https://github.com/jakub-rompca/houser-frontend-core) | Typescript                        | React<br/>Next.js<br/>GraphQL          | 5%   |
+|         [Frontend management app](https://github.com/jakub-rompca/houser-frontend-admin) | Typescript                        | React<br/>Next.js<br/>GraphQL          | 0%   |
+|                     [Mobile app](https://github.com/jakub-rompca/houser-frontend-mobile) | Dart                              | Flutter<br/>GraphQL                    | 0%   |
 
-https://github.com/jakub-rompca/houser-frontend-admin
+### Architecture diagram
 
-Mobile:
+![Simplified architecture diagram of Houser system](assets/Houser%20diagram.drawio.png)
 
-https://github.com/jakub-rompca/houser-frontend-mobile
+Please note that the included diagram presents the end goal, current state of code might not represent it yet.
 
+## How to use it?
 
-Project management:
+TODO - scripts and caveats, this repository will contain scripts that will build the whole system and run it with one command  
 
-https://github.com/users/jakub-rompca/projects/2
+## What's being worked on and what's next?
+
+[Project management](https://github.com/users/jakub-rompca/projects/2)
+
+Work on the project is tracked using GitHub Projects.
