@@ -19,5 +19,10 @@ services:
       - REDIS_ARGS=--save 1200 32
     ports:
       - "6379:6379"
+      # TODO redis insights exposed, remove in cloud compose
+      - "8001:8001"
+    volumes:
+      - ./redis-local-data/:/data
+#    command: redis-server --daemonize yes
 #    volumes:
 #      - /houser-redis-data:/data
