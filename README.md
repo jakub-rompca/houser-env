@@ -37,7 +37,12 @@ Please note that the included diagram presents the end goal, current state of co
 
 ## How to use it?
 
-TODO - scripts and caveats, this repository will contain scripts that will build the whole system and run it with one command  
+TODO - scripts and caveats, this repository will contain scripts that will build the whole system and run it with one command
+
+For now, infrastructure can be run with just
+```bash
+docker compose up
+```
 
 ## What's being worked on and what's next?
 
