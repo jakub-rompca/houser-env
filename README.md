@@ -23,7 +23,7 @@ System consists of a few projects working together to form a coherent solution
 
 |                                                                                     Name | Language                          | Technologies                           | Done |
 |-----------------------------------------------------------------------------------------:|-----------------------------------|----------------------------------------|------|
-|                 [Backend core app](https://github.com/jakub-rompca/houser-frontend-core) | Typescript                        | NestJS<br/>MySQL<br/>GraphQL<br/>Redis | 40%  |
+|                  [Backend core app](https://github.com/jakub-rompca/houser-backend-core) | Typescript                        | NestJS<br/>MySQL<br/>GraphQL<br/>Redis | 40%  |
 | [Backend notification app](https://github.com/jakub-rompca/houser-backend-notifications) | Typescript<br/>C# (in the future) | NestJS<br/>Redis                       | 60%  |
 |                [Frontend core app](https://github.com/jakub-rompca/houser-frontend-core) | Typescript                        | React<br/>Next.js<br/>GraphQL          | 5%   |
 |         [Frontend management app](https://github.com/jakub-rompca/houser-frontend-admin) | Typescript                        | React<br/>Next.js<br/>GraphQL          | 0%   |
